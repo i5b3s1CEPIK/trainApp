@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  trainapp:
+    image: ${DOCKER_REGISTRY}trainapp
+    build:
+      context: .\TrainApp
+      dockerfile: Dockerfile
